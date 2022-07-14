@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRONTEND MASTERS</title>
+    <style>
+      *{
+          border: 0px;
+          margin: 0px;
+      }
+      body{
+          background-color: rgb(54, 52, 52);
+      }
+       
+        .rachdiv{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(155, 8, 8);
+            padding: 20px 100px 20px 100px;
+            border-bottom: 20px solid orangered;
+
+        }
+        ul{
+            display: flex;
+            list-style: none;
+        }
+        li{
+            padding-right: 20px;
+        }
+        li a{
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+        }
+        li button{
+            background-color: rgb(241, 77, 48);
+            padding: 10px 20px 10px 20px;
+            border-radius: 50px;
+            border: none;
+        }
+        .front{
+            color: white;
+        }
+        .master{
+            color: rgb(233, 33, 33);
+            font-family: algerian;
+        }
+        .user{
+            color: white;
+        }
+        .recover{
+            color: white;
+            text-decoration: none;
+        }
+        .formdiv{
+            padding-left: 500px;
+        }
+        .login{
+            padding-right: 300px;
+            height: 35px;
+            border-radius: 5px;
+        }
+        .button1{
+            background-color: rgb(226, 56, 26);
+            padding: 15px 20px 15px 20px;
+            border-radius: 30px;
+        }
+       
+        .footerdiv{
+            display: flex;
+            background-color: black;
+        }
+        .footer{
+            display: flex;
+            padding-left: 95px;
+        }
+        .front1{
+            color: white;
+        }
+        .master1{
+            color: rgb(207, 39, 9);
+            font-family: algerian;
+        }
+        .icons{
+            padding-left: 95px;
+            background-color: black;
+        }
+        .worddiv{
+            display: flex;
+            padding: 30px;
+            justify-content: space-between;
+            background-color: black;
+        }
+        p{
+            color: white;
+        }
+        .support1{
+            color: rgb(235, 82, 55);
+        }
+        
+    </style>
+</head>
+<body>
+    <!--begining of header div-->
+    <div class="maindiv">
+        <div class="rachdiv">
+            <div class="frontendmasters">
+                <h1><b class="front">Frontend</b><i class="master">Master</i></h1>
+            </div>
+            <div class="kobslinks">
+                <ul>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Learn</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><button><a href="#">Log in Now</a> </button></li>
+                </ul>
+            </div>
+        </div><br><br><br>
+        <!--End of header div-->
+
+        <!--Begining of form div-->
+        <div class="formdiv">
+            <div>
+                <label class="user" for="Username or Email">Username or Email</label>
+            </div>
+            <div>
+                <input class="login" type="text" placeholder="Username or Email" id="Username or Email"><br>
+            </div><br>
+            <div>
+                <label class="user" for="Password">Password</label><br>
+            </div>
+            <div>
+                <input class="login" class="user" type="text" placeholder="Password" id="Password"><br>
+            </div>
+            <div>
+                <label for="remember"><br>
+                    <input class="remember" id="remember" name="remember" type="checkbox">
+                    <a  href="#" class="recover">Remember Me</a><br><br>
+                  </label>
+            </div>
+            <div>
+                <a href="#"><button class="button1" type="submit">Log In</button></a>
+                   
+                         <a  href="#" class="recover"> Forgot your password?</a><br><br>
+            </div>
+        </div><br><br><br><br><br><br><br><br>
+        <!--end of form from div-->
+
+        <!--begining of footer div-->
+                <footer>
+                    <div class="footerdiv">
+                        <div class="footer">
+                            <div class="frontendfooter">
+                                <h1><b class="front1">Frontend</b><i class="master1">Master</i></h1>
+                            </div>
+                           <div class="links">
+                            <ul>
+                                <li><a href="#">Courses</a></li>
+                                <li><a href="#">Learn</a></li>
+                                <li><a href="#">Teachers</a></li>
+                                <li><a href="#">Guides</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Login</a></li>
+                                <li><a href="#">Join Now</a></li>
+                                <li><a href="#">FAQ</a></li>
+                               
+                             </ul>
+
+                           </div>
+                        </div>
+                    </div>
+
+                  <div class="icons">
+                    <div>
+                        <a href="#" class="app2"><img src="icons/store.JPG" id="log"/></a>
+                        <a href="#"><img src="icons/play.JPG" id="log"/></a>
+                       </div>
+                       <div>
+                        <a href="#"><img src="icons/twitter.png" alt="log"></a> 
+                        <a href="#"><img src="icons/linkedin.png" alt="log"></a>
+                        <a href="#"><img src="icons/facebook.png" alt="log"></a>
+                        <a href="#"><img src="icons/instagram.png" alt="log"></a>
+                       </div>
+                  </div>
+                  <div class="worddiv">
+                    <div>
+                        <p>Frontend Masters is proudly made in Minneapolis, MU</p>
+                    </div>
+                    <div>
+                        <a href="#"><p class="support1">Email:support@frontendmasters.com</p></a>
+                        <p>©2022 Frontend Masters.Terms of Service.Privacy Policy</p>
+                    </div>
+                  </div>
+                        
+                           
+                </footer>
+        <!--end of footer div-->
+
+
+    </div>
+</body>
+</html>
